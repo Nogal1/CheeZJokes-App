@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import JokeList from "./JokeList";
 
 /** App component. Renders list of jokes. */
 
 function App() {
-  render() 
     return (
       <div className="App">
         <JokeList />
